@@ -74,7 +74,12 @@ view: users {
   
   measure: sum {
     type: sum
-    sql: ${age}
+    sql: ${age} ;;
+  }
+  
+  measure: count_distinct {
+    type: count_distinct
+    sql: ${zip} ;; 
   }
   
   ##making another change##

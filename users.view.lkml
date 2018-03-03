@@ -71,10 +71,10 @@ view: users {
     type: count
     drill_fields: [detail*]
   }
-  
+
   measure: sum {
     type: sum
-    sql: ${age}
+    sql: ${age} ;;
   }
 
   # ----- Sets of fields for drilling ------

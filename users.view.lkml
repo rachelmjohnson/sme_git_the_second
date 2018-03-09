@@ -59,7 +59,7 @@ view: users {
 
   dimension: full_name {
     type: string
-    sql: concat(${last_name},",",${first_name}) ;;
+    sql: concat("${first_name}"," ","${last_name}") ;;
   }
 
   dimension: state {
